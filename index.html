@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PING</title>
+</head>
+<body>
+    <main>
+        <div>
+            <img src="/logo.svg" alt="logo" class="mx-auto pt-[70px] pb-[40px] w-[200px] sm:w-[300px]">
+        </div> 
+        <div>
+            <p class="font-extralight text-3xl sm:text-5xl text-[#797777] text-center mb-[20px]">
+                We are launching 
+                <span class="font-bold text-black">soon!</span>
+            </p>
+            <p class="text-lg sm:text-xl text-center mb-[30px]">Subscribe and get notified</p>
+        </div>
+        <div class="text-center mb-[90px]">
+            <input 
+                type="email" 
+                name="email" 
+                required 
+                placeholder="Your email address" 
+                class="rounded-[50px] border-2 px-[20px] py-[10px] w-full sm:w-auto sm:px-[70px] sm:mb-[20px]" 
+                id="input">
+            <button 
+                class="rounded-[50px] bg-[#4f7df3] px-[20px] py-[10px] w-full sm:w-auto sm:px-[40px] text-white text-sm mt-[10px] sm:mt-0 sm:ml-[10px]">
+                Notify Me
+            </button>
+            <div id="message" class="mt-[10px] text-red-600 text-sm mx-auto"></div>
+        </div>
+        <div>
+            <img src="/illustration-dashboard.png" alt="dashboard" class="w-full sm:w-[800px] mx-auto">
+        </div>
+    </main>
+    <footer>
+        <div class="flex justify-center mt-[90px] gap-[10px]">
+            <a href=""><img src="/facebook-svgrepo-com.svg" alt="facebook" class="w-[25px] sm:w-[30px]"></a>
+            <a href=""><img src="/twitter-svgrepo-com (1).svg" alt="twitter" class="w-[25px] sm:w-[30px]"></a>
+            <a href=""><img src="/instagram_6422200.svg" alt="instagram" class="w-[25px] sm:w-[30px]"></a>
+        </div>
+        <div class="text-sm text-center mt-[20px] mb-[30px]">@Copyright Ping. All rights reserved</div>
+    </footer>
+    <script src="/ping.js"></script>
+</body>
+</html>
